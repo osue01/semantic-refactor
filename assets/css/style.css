@@ -65,23 +65,32 @@ p {
 
 .float-left {
     float: left;
-    margin-right: 25px;
+    margin-right: 20px;
 }
 
 .float-right {
     float: right;
-    margin-left: 25px;
+    margin-left: 20px;
 }
 
 .content {
-    width: 75%;
+    width: 70%;
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 20px;
 }
 
+.aside {
+    width: 20%;
+    display: inline;
+    float: right;
+    position: fixed;
+    margin-left: 0px;
+}
+    
+
 .benefits {
-    margin-right: 20px;
-    padding: 20px;
+    margin-right: 0px;
+    padding: 1px;
     clear: both;
     float: right;
     width: 20%;
@@ -140,29 +149,32 @@ p {
 
 .search-engine-optimization {
     margin-bottom: 20px;
-    padding: 50px;
+    padding: 30px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    max-width: 80%;
 }
 
 .online-reputation-management {
     margin-bottom: 20px;
-    padding: 50px;
+    padding: 30px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    max-width: 80%;
 }
 
 .social-media-marketing {
     margin-bottom: 20px;
-    padding: 50px;
+    padding: 30px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    max-width: 80%;
 }
 
 .search-engine-optimization img {
